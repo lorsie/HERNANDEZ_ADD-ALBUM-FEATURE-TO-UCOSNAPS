@@ -1,0 +1,175 @@
+/* Base styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ceb5b7; 
+    color: #222; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff6f61; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: black;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form p {
+    margin: 15px 0;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #aaa; 
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e65b50; 
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #ccc; 
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #ff6f61; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9eae1; 
+}
+
+/* Album and photo cards */
+.album {
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    background-color: #fff4f0; 
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.album h2 {
+    margin: 0;
+    color: #ff6f61; 
+}
+
+.album a {
+    color: #ff6f61; 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.album a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #666; 
+}
+
+/* Login and registration */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ceb5b7; 
+    color: #222; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61;
+    margin-top: 20px;
+}
+
+/* Message styles */
+h1[style*="color: green"] {
+    color: #28a745 !important;
+}
+
+h1[style*="color: red"] {
+    color: #dc3545 !important;
+}
