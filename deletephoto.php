@@ -25,7 +25,7 @@ $getPhotoByID = getPhotoByID($pdo, $_GET['photo_id']);
         <div class="deleteForm" style="border-style: solid; border-color: red; background-color: #ffcbd1; padding: 10px; width: 50%;">
             <form action="core/handleForms.php" method="POST">
                 <p>
-                    <label for=""><h2>Are you sure you want to Delete this Photo below?</h2></label>
+                    <label for=""><h2>Are you sure you want to delete this photo below?</h2></label>
                     <input type="hidden" name="photo_name" value="<?php echo $getPhotoByID['photo_name']; ?>">
                     <input type="hidden" name="photo_id" value="<?php echo $_GET['photo_id']; ?>">
                     <input type="submit" name="deletePhotoBtn" style="margin-top: 10px;" value="Delete">
