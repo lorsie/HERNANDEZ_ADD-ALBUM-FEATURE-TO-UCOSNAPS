@@ -3,17 +3,16 @@ require_once 'core/models.php';
 require_once 'core/handleForms.php'; 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="styles/styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/styles.css">
 </head>
-<body class="body-background">
-    <h1>Register here!</h1>
-    </body>
 <body>
 	<h1>Register here!</h1>
 	<?php  
