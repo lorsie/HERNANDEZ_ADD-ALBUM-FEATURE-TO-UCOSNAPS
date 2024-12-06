@@ -3,6 +3,8 @@ require_once 'core/models.php';
 require_once 'core/handleForms.php'; 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +12,8 @@ require_once 'core/handleForms.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/styles.css">
-
-    <body style="background-color: #ceb5b7;"> </body> 
-
 </head>
-
+<body>
     <?php  
     if (isset($_SESSION['message']) && isset($_SESSION['status'])) {
 
