@@ -9,8 +9,6 @@ if (!isset($_SESSION['username'])) {
 $getPhotoByID = getPhotoByID($pdo, $_GET['photo_id']); 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
