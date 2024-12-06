@@ -7,6 +7,8 @@ if (!isset($_SESSION['username'])) {
 } 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,46 +18,6 @@ if (!isset($_SESSION['username'])) {
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #ceb5b7;
-        padding: 20px;
-    }
-
-    h1 {
-        color: #333;
-        text-align: center;
-    }
-
-    label {
-        display: block;
-        margin-bottom: 5px;
-    }
-    input[type="text"],
-    input[type="file"],
-    
-    select {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    button[type="submit"] {
-        font-weight: bold;
-    }
-</style>
 <body>
     <?php include 'navbar.php'; ?>
 
