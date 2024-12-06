@@ -10,7 +10,6 @@ CREATE TABLE user_accounts (
 CREATE TABLE albums (
     album_id INT AUTO_INCREMENT PRIMARY KEY,
     album_name VARCHAR(255),
-    description VARCHAR(255),
     username VARCHAR(255),
     date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -19,6 +18,7 @@ CREATE TABLE photos (
     photo_id INT AUTO_INCREMENT PRIMARY KEY,
     photo_name TEXT,
     username VARCHAR(255),
+    description VARCHAR(255),
     album_id INT,
     date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (album_id) REFERENCES albums(album_id)
